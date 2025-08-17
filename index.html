@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+        integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="container">
+        <h1>Signup</h1>
+        <form>
+            <div class="input-field email-field">
+                <input type="text" placeholder="Enter your email" class="email-input">
+            </div>
+            <small class="email-small error"><i class="fa-solid fa-circle-exclamation"></i>Please enter a valid email</small>
+            <div class="input-field create-password-field">
+                <input type="password" placeholder="Create password" class="pass-input">
+            
+                <i class="fa-solid fa-eye-slash hide"></i>
+            </div>
+            <small class="create-small error"><i class="fa-solid fa-circle-exclamation"></i>Please enter atleast 8 character with number, symbol, capital and small letter</small>
+            <div class="input-field confirm-password-field">
+                <input type="password" placeholder="Confirm password" class="cpass-input">
+                
+                <i class="fa-solid fa-eye-slash hide "></i>
+            </div>
+            <small class="confirm-small error"><i class="fa-solid fa-circle-exclamation"></i>Password don't match</small>
+            <button>Signup Now</button>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
